@@ -132,5 +132,8 @@ provides: [String.toBase64, String.decodeBase64]
 			return Base64.decode(this);
 		}
 	});
+    
+    String.alias('fromBase64','decodeBase64');
+    String.alias('encodeBase64','toBase64');
 
 })();
