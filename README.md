@@ -1,7 +1,7 @@
 Base64
 ======
 
-![icon](http://github.com/rpflorence/Base64/icon.png)
+![icon](http://github.com/rpflorence/Base64/raw/master/icon.png)
 
 String methods for encoding and decoding Base64 data.
 
