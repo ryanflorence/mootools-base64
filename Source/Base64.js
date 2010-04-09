@@ -124,16 +124,16 @@ provides: [String.toBase64, String.decodeBase64]
 	};
     
 	String.implement({
-		toBase64: function(){
+		encodeBase64: function(){
 			return Base64.encode(this);
 		},
 
-		decodeBase64: function(){
+		fromBase64: function(){
 			return Base64.decode(this);
 		}
 	});
-    
-    String.alias('fromBase64','decodeBase64');
-    String.alias('encodeBase64','toBase64');
 
+	String.alias('decodeBase64','fromBase64');
+	String.alias('toBase64','encodeBase64');
+    
 })();

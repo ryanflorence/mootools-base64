@@ -9,8 +9,8 @@ How to use
 ----------
 
     var str = "General Conference";
-    var encoded = str.toBase64();
-    var decoded = encoded.decodeBase64();
+    var encoded = str.encodeBase64();
+    var decoded = encoded.fromBase64();
 
 Future
 ------
